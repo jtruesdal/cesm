@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <testlist version="2.0">
-  <test name="ERI" grid="f09_g17" compset="B1850" testmods="allactive/defaultio_noclminterp">
+  <test name="ERI" grid="f09_g17" compset="B1850" testmods="allactive/defaultio">
     <machines>
       <machine name="bluewaters" compiler="pgi" category="prebeta"/>
     </machines>
@@ -8,7 +8,7 @@
       <option name="wallclock"> 01:00 </option>
     </options>
   </test>
-  <test name="ERI" grid="f09_g17" compset="B1850" testmods="allactive/defaultio_noclminterp">
+  <test name="ERI" grid="f09_g17" compset="B1850" testmods="allactive/default">
     <machines>
       <machine name="edison" compiler="intel" category="prebeta"/>
     </machines>
@@ -90,23 +90,6 @@
     </options>
   </test>
   <test name="IRT" grid="f09_g17" compset="BRCP85L45BGCR" testmods="allactive/defaultio">
-    <machines>
-      <machine name="cheyenne" compiler="intel" category="prebeta"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 00:30 </option>
-    </options>
-  </test>
-  <test name="IRT_Ld7" grid="f09_g17" compset="BHIST" testmods="allactive/defaultio">
-    <machines>
-      <machine name="bluewaters" compiler="pgi" category="prebeta"/>
-      <machine name="cheyenne" compiler="intel" category="prealpha"/>
-    </machines>
-    <options>
-      <option name="wallclock"> 00:30 </option>
-    </options>
-  </test>
-  <test name="SMS_Ld1" grid="f09_g17" compset="BW1850" testmods="allactive/default">
     <machines>
       <machine name="cheyenne" compiler="intel" category="prebeta"/>
       <machine name="cheyenne" compiler="intel" category="bwaccm"/>
