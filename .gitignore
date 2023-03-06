@@ -2,6 +2,9 @@
 cime/
 components/
 libraries/
+share/
+ccs_config/
+tools/statistical_ensemble_test/
 
 # generated local files
 *.log
