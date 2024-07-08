@@ -159,3 +159,9 @@
 	fxDONOTUSEurl = https://github.com/ESCOMP/MOM_interface
         fxrequired = ToplevelRequired
         fxtag = mi_240522
+[submodule "socrates_libint"]
+	path = libraries/SOCRATES
+	url = https://github.com/ESCOMP/SOCRATES_interface
+	fxDONOTUSEurl = https://github.com/ESCOMP/SOCRATES_interface
+        fxrequired = ToplevelRequired
+        fxtag = interface_socrates_2304.003
