@@ -66,7 +66,7 @@
 	path = components/cam
 	url = https://github.com/PeterHjortLauritzen/CAM
 	fxDONOTUSEurl = https://github.com/PeterHjortLauritzen/CAM
-        fxtag = cam-mars-dev_001
+        fxtag = cam-mars-dev
         fxrequired = ToplevelRequired
 
 [submodule "ww3"]
